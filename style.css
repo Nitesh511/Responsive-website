@@ -1,0 +1,114 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp2133168.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+}
+.navbar h1 {
+  width: 20%;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 60px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.navbar ul {
+  display: flex;
+  position: absolute;
+
+
+}
+.navbar ul li {
+  display: inline-block;
+  position: relative;
+  left: 970px;
+  padding: 15px;
+  font-size: 18px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar a li:hover{
+    color: green;
+    transition: 0.6s ease;
+}
+.navbar a.active{
+    color: green;
+}
+.middle h2{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 40%;
+    right: 42%;
+    transform: translate(0,-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+.middle h3{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 48%;
+    right: 30%;
+    transform: translate(0,-50%);
+    font-size: 46px;
+}
+.middle p{
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 58%;
+    right: 25%;
+    transform: translate(0,-50%);
+}
+.button1 button{
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    transform: translate(0,-50%);
+    height: 40px;
+    width: 115px;
+    background-color: #fff;
+    color: green;
+    border-radius: 18px;
+}
+
+.button2 button{
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 70%;
+    right: 41%;
+    transform: translate(0,-50%);
+    height: 40px;
+    width: 115px;
+    background-color: green;
+    color: white;
+    border-radius: 18px;
+
+}
+button:hover{
+    color:#fff;
+    background-color: black;
+}
+.content{
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 170%;
+    right: 41%;
+    transform: translate(0,-50%);
+
+}
+
